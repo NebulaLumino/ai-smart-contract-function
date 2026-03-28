@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background: #0f0e17;
+  color: #fffffe;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.prose h1 { @apply text-2xl font-bold text-emerald-300 mt-4 mb-2; }
+.prose h2 { @apply text-xl font-semibold text-emerald-200 mt-3 mb-2; }
+.prose h3 { @apply text-lg font-semibold text-teal-200 mt-2 mb-1; }
+.prose p { @apply mb-2 text-slate-300; }
+.prose ul { @apply list-disc list-inside mb-2 text-slate-300; }
+.prose ol { @apply list-decimal list-inside mb-2 text-slate-300; }
+.prose strong { @apply text-white font-semibold; }
+.prose code { @apply bg-white/10 text-emerald-300 px-1 py-0.5 rounded text-sm; }
